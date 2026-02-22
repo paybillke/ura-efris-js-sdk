@@ -1,0 +1,41 @@
+# -----------------------------
+# Version control
+# -----------------------------
+.git
+.gitattributes
+.gitignore
+
+# -----------------------------
+# Environment & local config
+# -----------------------------
+.env
+.env.*
+.env.test
+
+# -----------------------------
+# Dependencies
+# -----------------------------
+node_modules
+pnpm-lock.yaml
+
+# -----------------------------
+# Source & tests (keep only dist)
+# -----------------------------
+src
+test
+
+# -----------------------------
+# Build & tooling configs
+# -----------------------------
+tsconfig.json
+tsconfig.build.json
+tsconfig.vitest.json
+tsconfig.build.tsbuildinfo
+vitest.config.ts
+vitest.setup.ts
+
+# -----------------------------
+# Misc
+# -----------------------------
+README.md
+LICENSE
