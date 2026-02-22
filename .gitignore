@@ -19,3 +19,5 @@ run/
 .tsbuildinfo
 .tsbuildinfo.*
 tsconfig.build.tsbuildinfo
+*.pfx
+.DS_Store
